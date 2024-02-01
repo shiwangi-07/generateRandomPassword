@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #000; */
+    /* background: linear-gradient(to right top, #8a72f7, #8077fb, #929ef0 , #8995f2, #a1acf7); */
+    position: absolute;
+    /* background-image: url(IMG_20231116_204855_520.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    filter: blur(10px);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    width: 75%;
+    position: absolute;
+    z-index: 5;
+    background: linear-gradient(to right bottom, #8a72f7, #8077fb, #929ef0 , #7381ea, #4759d4);
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    border-radius: 40px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-shadow: 0px 4px 4px rgba(255, 255, 255,0.25);
+    /* margin: 70px 530px; */
+    margin: 70px 215px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h1 span{
+    color: rgb(248, 248, 17);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+
+}
+
+.main-body button img{
+    width: 28px;
+    margin-right: 10px;
+    /* filter: invert(1); */
+}
+
+.main-body button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(221, 217, 2);
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.display{
+    width: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 28px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    border-radius: 19px;
+}
